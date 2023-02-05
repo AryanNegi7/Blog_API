@@ -95,6 +95,6 @@ app.post('/api/blog', auth, async (req, res) => {
     res.send({ message: 'Blog post deleted successfully' });
   });
   
-  app.listen(3000, () => {
+  app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}/`);
   });
